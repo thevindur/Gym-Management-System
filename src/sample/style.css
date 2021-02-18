@@ -1,0 +1,83 @@
+#pane{
+    -fx-background-image: url('home1.jpg');
+    -fx-background-repeat: stretch;
+    -fx-background-size: 520 900;
+    -fx-background-position: center center;
+}
+#Button{
+    -fx-background-color: linear-gradient(black, #708090);
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-min-width: 300px;
+    -fx-min-height: 50px;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
+}
+#Menubar{
+    -fx-background-color: linear-gradient(black,blue);
+}
+#Button1{
+    -fx-background-color: linear-gradient(black,slategrey);
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-min-width: 150px;
+    -fx-min-height: 100px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+#ButtonSelected{
+    -fx-background-color: linear-gradient(yellow,yellowgreen,green);
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-min-width: 150px;
+    -fx-min-height: 100px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+#BgImage{
+    -fx-background-image: url('content.jpg');
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1150 950;
+    -fx-background-position: center center;
+    -fx-opacity: 0.9;
+}
+#Content{
+    -fx-background-color: linear-gradient(lightslategrey,dimgrey);
+    -fx-opacity: 0.9;
+    -fx-background-radius: 50px;
+}
+#Button1:hover,#Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+#MainHeading1,#MainHeading2,#MainHeading3{
+    -fx-text-fill: linear-gradient(orange,orangered,darkred) ;
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-weight: bolder;
+    -fx-font-size: 40px;
+}
+#MainHeading1{-fx-label-padding: 0px 0px 0px 200px;}
+#MainHeading2{-fx-label-padding: 0px 0px 0px 180px;}
+#MainHeading3{-fx-label-padding: 0px 0px 0px 100px;}
+#SearchBox{
+    -fx-min-width: 350px;
+    -fx-background-radius: 30px;
+}
+#SearchBtn{
+    -fx-background-color: linear-gradient(yellow,yellowgreen,green);
+    -fx-background-radius: 30px;
+}
+#MainLbl{
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+}
